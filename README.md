@@ -15,7 +15,7 @@ This downloads Google Chrome (Firefox should already be installed) and the corre
 
 ```sh
 mkdir bin
-cd tmp
+cd /tmp
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
