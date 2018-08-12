@@ -5,7 +5,7 @@
 1. Install Virtualbox
 2. Download Ubuntu 18.04.1 ISO from https://www.ubuntu.com/download/desktop
 3. Create a new Virtual Machine with 2 GB of RAM and 10 GB of HDD (minimum)
-4. Use the downloaded Ubuntu 18.04.1 as a startup disk and install Ubuntu
+4. Use the downloaded Ubuntu 18.04.1 as a startup disk and install Ubuntu. Use minimal install option to avoid installing unnecessary programs.
 
 ## Inside the VM
 
@@ -28,6 +28,8 @@ tar -xvzf geckodriver-v0.21.0-linux64.tar.gz
 mv geckodriver ~/bin/
 chmod +x ~/bin/geckodriver
 ```
+
+Alternatively, just run the `install-drivers.sh` which executes the above.
 
 ### Install Robot Framework
 
